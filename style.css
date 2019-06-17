@@ -3,13 +3,15 @@
 	font-family: arial;
 	text-decoration: none;
 	/*display: inline;*/
-	background-image: url('image/top.jpg');
-	height: 300px;
+	/*background-color: #e67e22;*/
+	opacity: 0.9;
+	height: 250px;
 	width: 100%;
-	background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  top: 0px;
+	position: fixed;
+  	top: 0px;
+  z-index: 2;
+  background-image: linear-gradient(#e67e22, transparent)
+
 
 }
 header ul li{
@@ -38,9 +40,10 @@ ul li:hover{
 	background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
   height: 1382px;
   width: 100%;
-  top: 0px;
+  top: 119px;
 }
 h3 {
 	font-size: 50px;
